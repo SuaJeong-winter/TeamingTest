@@ -1,0 +1,35 @@
+.App {
+  height: 3000px;
+}
+
+.App .Header{
+  height: 67px;
+  background-color: beige;
+}
+
+.App .Banner {
+  width: 100%;
+  height: 488px;
+  background-color: royalblue;
+}
+
+.App .bodySection{
+  display: flex;
+  height: 488px;
+}
+
+.App .bodySection .onGoingProj{
+  background-color: purple;
+  width: 50%;
+}
+
+.App .bodySection .news{
+  width: 50%;
+  background-color: red;
+}
+
+.App .portfolio{
+  background-color: pink;
+  height: 300px;
+
+}
