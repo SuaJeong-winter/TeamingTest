@@ -1,5 +1,5 @@
 import './App.css';
-import { Calendar } from './Calendar';
+import { Calendar } from './pages/Calendar';
 import { Home } from './Home';
 import { Navbar } from './Navbar';
 import Banner from './components/Banner';
@@ -14,7 +14,6 @@ import { Routes, Route, Link } from "react-router-dom";
 
 function App() {
   return (<div className="App">
-    <Header/>
     <Routes>
     <Route path="/" element={<Home />} />
       <Route path="/ongoingProject" element={<OngoingProj />} />
